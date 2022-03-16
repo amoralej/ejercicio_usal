@@ -12,7 +12,7 @@ Base on nginx
 
 # run the docker container with your own build
 
-    git clone https://github.com/amoralej/game2048.git
+    git clone https://github.com/amoralej/ejercicio_usal.git
     buildah bud -t game2048 game2048
     podman run --rm -dt -p8080:80/tcp localhost/game2048:latest
 
