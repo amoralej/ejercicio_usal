@@ -15,7 +15,7 @@ Base on nginx
     git clone https://github.com/amoralej/game2048.git
     buildah bud -t game2048 game2048
     podman run --rm -dt -p8080:80/tcp localhost/game2048:latest
-
+    podman run --pull=always -dt -p8080:80 quay.io/amoralej/game2048:latest
 # run the podman container by pulling the image directly
 
 
